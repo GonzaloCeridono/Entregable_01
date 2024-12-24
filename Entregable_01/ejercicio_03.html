@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EJERCICIO 3: FORMULARIO</title>
+  </head>
+  <body>
+    <main>
+      <h1>Formulario de registro</h1>
+      <form action="" method="post">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" required /> <br /><br />
+
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido" required /><br /><br />
+
+        <label for="modalidad">Modalidad de Cursada:</label>
+        <input type="radio" id="on-demand" name="modalidad" value="on-demand" />
+        <label for="on-demand">On-Demand</label>
+        <input type="radio" id="en-vivo" name="modalidad" value="en-vivo" />
+        <label for="en-vivo">En vivo</label><br /><br />
+
+        <label for="correo">Correo: </label>
+        <input type="email" name="correo" id="correo" /><br /><br />
+
+        <input type="checkbox" name="notificaciones" id="notificaciones" />
+        <label for="notificaciones"
+          >Deseo recibir información sobre nuevos posteos en la plataforma de
+          Nucba.</label
+        ><br /><br />
+        <input type="checkbox" name="tyc" id="tyc" required />
+        <label for="tyc"
+          >Declaro que lei los terminos y condiciones y estoy listo para
+          convertirme en desarrollador web Full Stack.</label
+        ><br /><br />
+
+        <button type="submit">Enviar</button><br /><br />
+
+        <nav>
+          <a href="index.html">Ir al ejercio de "Listas"</a><br />
+          <a href="ejercicio_02.html">Ir al ejercicio de "Listas Anidadas"</a>
+        </nav>
+      </form>
+    </main>
+  </body>
+</html>
